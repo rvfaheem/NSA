@@ -1,0 +1,12 @@
+echo "Enter side a"
+read a
+echo "Enter side b"
+read b
+echo "Enter side c"
+read c
+if [[(a*a=b*b+c*c) || (c*c=b*b+a*a) || (b*b=a*a+c*c)]]
+then
+echo "right angle triangle"
+else
+echo "Not right angle triangle"
+fi

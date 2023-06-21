@@ -1,0 +1,9 @@
+echo "Enter file name"
+read text
+word=$(cat "$text"|wc -w)
+char=$(cat "$text"|wc -c)
+line=$(cat "$text"|wc -l)
+echo "noumber of words=$word "
+echo "noumber of character=$char "
+echo "noumber of line=$line "
+
